@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+html,body {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+header {
+    border-bottom: 1px solid rgba(0,0,0,0.125);
+    padding: 0 1rem;
+    position: sticky;
+    display:none;
+}
+
+header h1 {
+    font-size: 1rem;
+}
+
+main {
+    display:flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+dl {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+dt {
+    border-right: 1px solid rgba(0,0,0,0.125);
+    font-weight: 700;
+    font-size: 6rem;
+}
+
+dd {
+    margin:0;
+    font-size: 2rem;
+}
